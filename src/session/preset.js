@@ -154,7 +154,6 @@ export const BRAIN_ROWS = [
     name: '@deepseek-ai/dsh-persona',
     config: {
       prefix: 'You are a coding agent powered by the {{model}} model.',
-      suffix: 'Your working directory is {{cwd}}.',
     },
   },
   // ⚠️ 它读 AGENTS.md 用的是 **`node:fs`**（不是 `ctx.fs`），所以读的是**本机**：
